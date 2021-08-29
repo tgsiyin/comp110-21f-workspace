@@ -1,4 +1,4 @@
-"""Ex01. Boolean function carried out comparing two input numbers"""
+"""Ex01. Boolean function carried out comparing two input numbers."""
 __author__ = "730272419"
 left_hand_side: str = input("Enter left-hand side number: ")
 right_hand_side: str = input("Enter right-hand side number: ")

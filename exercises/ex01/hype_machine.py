@@ -1,5 +1,5 @@
 # TODO: Write docstring here
-"""Ex01. Who is a billionare and how people feel about the person"""
+"""Ex01. Who is a billionare and how people feel about the person."""
 # TODO: Initialize __author__ variable here
 __author__ = "730272419"
 # TODO: Implement your program logic here
