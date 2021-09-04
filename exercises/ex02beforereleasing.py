@@ -16,12 +16,14 @@ repeat_words: str = input("What beat do you want to repeat?")
 print("What beat do you want to repeat?" + repeat_words)
 repeat_times: int = int(input("How many times you want to repeat?"))
 print("How many times you want to repeat?" + str(repeat_times))
+after_required_numbers_of_repetition: str = ""
 if repeat_times <= count:
     print("No beat...")
 else: 
     while count < repeat_times:
-        print(repeat_words)
         count = count + 1
+        after_required_numbers_of_repetition = after_required_numbers_of_repetition + repeat_words
+print(after_required_numbers_of_repetition)
 
 input_letter: str = input("What letter do you want to seach for?: ")
 print("What letter do you want to seach for?: " + input_letter)
