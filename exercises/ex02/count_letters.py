@@ -16,3 +16,42 @@ while length >= count_1:
         count_target = count_target
         count_1 = count_1 + 1
 print("Count: " + str(count_target))
+
+a: int = 8
+b: int = 2
+c: int = 0
+i: int = 2
+
+while a > b:
+    if a % 2 == 0:
+        b = b + 2 
+    elif a % 3 == 0:
+        b = b + 1
+    elif a % 2 == 1:
+        if a % 7 == 0:
+            while i > 0:
+                b = b - i
+                i = i - 1
+            i = 2
+        b = b + 1
+    a = a - 1
+    c = c + 1 
+
+print(a)
+print(b)
+print(c)
+
+x: float = 3
+y: float = 5
+x = x - 1 
+
+if x < y: 
+    z = x ** y / 2
+else: 
+    if x == y:
+        z = y % x
+    else: 
+        x = x / 2
+        z = y - x
+    z = z + 1
+print(z)
