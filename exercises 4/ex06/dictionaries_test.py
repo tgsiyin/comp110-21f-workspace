@@ -1,7 +1,7 @@
 """Unit tests for dictionary functions."""
 
 from exercises.ex06.dictionaries import invert, favorite_color, count
-import pytest
+
 __author__ = "730272419"
 
 
@@ -19,9 +19,8 @@ def test_invert_usecase2() -> None:
 
 def test_invert_edgecase3() -> None:
     """Test for the invert function."""
-    with pytest.raises(KeyError):
-        ti: dict[str, str] = {'a': 'z', 'b': 'z', 'd': 'k'}
-        invert(ti) == KeyError("KeyError")
+    ti: dict[str, str] = {'a': 'z', 'b': 'z', 'd': 'k'}
+    assert invert(ti) == "KeyError"
 
 
 def test_favorite_color_usecase1() -> None:
